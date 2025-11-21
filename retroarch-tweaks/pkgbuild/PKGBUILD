@@ -1,13 +1,13 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=retroarch-tweaks
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=22.08.23
+pkgrel=1829
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/retroarch-tweaks"
 pkgdesc="Tweaks to retroarch enable download and updates for cores and shaders."
-source=("git+https://github.com/biglinux/retroarch-tweaks.git")
+source=("git+https://github.com/biglinux/retroarch-tweaks.git#branch=")
 md5sums=(SKIP)
 
 package() {
