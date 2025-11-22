@@ -7,7 +7,7 @@ arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/retroarch-tweaks"
 pkgdesc="Tweaks to retroarch enable download and updates for cores and shaders."
-source=("git+https://github.com/biglinux/retroarch-tweaks.git#branch=")
+source=("git+https://github.com/biglinux/retroarch-tweaks.git#branch=main")
 md5sums=(SKIP)
 
 package() {
